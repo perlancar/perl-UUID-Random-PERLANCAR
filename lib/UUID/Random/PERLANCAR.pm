@@ -36,6 +36,11 @@ Use like you would L<UUID::Random>:
 =head1 DESCRIPTION
 
 
+=head1 FUNCTIONS
+
+=head2 generate
+
+
 =head1 SEE ALSO
 
 L<UUID::Random>
