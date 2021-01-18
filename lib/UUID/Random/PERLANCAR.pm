@@ -50,4 +50,6 @@ L<UUID::Random>
 
 Benchmark in L<Acme::CPANModules::UUID>
 
+L<Crypt::Misc>
+
 =cut
