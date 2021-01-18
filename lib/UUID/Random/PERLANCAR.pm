@@ -35,6 +35,9 @@ Use like you would L<UUID::Random>:
 
 =head1 DESCRIPTION
 
+Note that this module does not produce RFC 4122-compliant v4 (random) UUIDs (no
+encoding of variant and version information into the UUID).
+
 
 =head1 FUNCTIONS
 
