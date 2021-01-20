@@ -10,15 +10,12 @@ use warnings;
 
 sub generate {
     sprintf(
-        "%04x%04x-%04x-%04x-%04x-%04x%04x%04x",
+        "%08x-%04x-%04x-%04x-%04x%08x",
+        rand(2**32),
         rand(2**16),
         rand(2**16),
         rand(2**16),
-        rand(2**16),
-        rand(2**16),
-        rand(2**16),
-        rand(2**16),
-        rand(2**16),
+        rand(2**16), rand(2**32),
     );
 }
 
